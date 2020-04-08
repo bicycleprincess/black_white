@@ -1,0 +1,204 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Developer CV
+% LaTeX Template
+% Version 1.0 (28/1/19)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Jan Vorisek (jan@vorisek.me)
+% Based on a template by Jan Küster (info@jankuester.com)
+% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.45\textwidth} % 45% of the page width for name
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% If your name is very short, use just one of the lines below
+	% If your name is very long, reduce the font size or make the minipage wider and reduce the others proportionately
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Wei}}}}} % First name
+	
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Yang}}}}} % Last name
+	
+	\vspace{6pt}
+	{\Large Python Developer}
+	%{\huge Python Developer with Digital Signal Processing experience} % Career or current job title
+\end{minipage}
+\begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the first row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+	\icon{MapMarker}{12}{Moabit Berlin}\\
+	\icon{Phone}{12}{+49 176 8294 6114}\\
+	\icon{At}{12}{\href{mailto:yang.wei@gmx.de}{yang.wei@gmx.de}}\\	
+\end{minipage}
+\begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the second row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+	
+	\icon{Github}{12}{\href{https://github.com/bicycleprincess}{bicycleprincess}}\\
+	\icon{Globe}{12}{\href{https://www.youracclaim.com/badges/57851f58-8218-4f79-bac4-b2a6fb6a5d94}{ISTQB Certified Tester}}\\
+	\icon{Globe}{12}{\href{https://www.scrumalliance.org/community/profile/wyang35}{Certified ScrumMaster}}\\
+\end{minipage}
+
+\vspace{0.5cm}
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION, SKILLS AND TECHNOLOGIES
+%----------------------------------------------------------------------------------------
+
+\cvsect{Earliest start date}
+
+\begin{minipage}[t]{0.4\textwidth} % 40% of the page width for the introduction text
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	%\lorem \lorem \lorem \lorem \lorem\\ % Dummy text
+	In one month \\
+	
+	%\vspace{1cm}
+	
+	\cvsect{Salary expectations}
+	
+	45,000 Euro annually
+	
+	\cvsect{Languages}
+	
+	\textbf{Chinese} - native\\
+	\textbf{English} - proficient\\
+	\textbf{Germen} - rudimentary
+\end{minipage}
+\hfill % Whitespace between
+\begin{minipage}[t]{0.55\textwidth} % 50% of the page for the skills bar chart
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\begin{barchart}{5.5}
+		\baritem{Linux \hspace{} 90\%}{90}
+		\baritem{Python \hspace{} 100\%}{100}
+		\baritem{Scrum \hspace{} 100\%}{100}
+		\baritem{Docker \hspace{} 80\%}{80}
+		\baritem{Git \hspace{} 100\%}{100}
+		\baritem{JSON \hspace{} 100\%}{100}
+		\baritem{REST \hspace{} 80\%}{80}
+		\baritem{Cloud Computing \hspace{} 70\%}{70}
+	\end{barchart}
+\end{minipage}
+
+%\begin{center}
+%	\bubbles{5/NumPy, 6/Python, 5/SciPy, 3/C++, 3/Unit Test}
+%\end{center}
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\cvsect{Experience}
+
+\begin{entrylist}
+	\entry
+		{11/2019 -- 2.2020}
+		{Consulting and Python Automation Developer}
+		{Die Stadtwerke M{\"u}nchen}
+		{Statistic of all of the current virtual systems\\Feasibility study for Log Management System\\ \texttt{Confluence}\slashsep\texttt{JIRA}\slashsep\texttt{Excel}\slashsep\texttt{VMware Fusion}\slashsep\texttt{VMware vSphere}\slashsep\texttt{Python}\slashsep\texttt{SEAL Kit}}
+	\entry
+		{10/2019 -- 10/2019}
+		{Consulting Trainee}
+		{Potsdam University}
+		{Participant in the Consulting activities}
+	\entry
+		{6/2019 -- 8/2019}
+		{Python Automation Developer for IT Security}
+		{Deutsche Bank}
+		{Taking care of employees' data\\ Maintaining Websites\\Automatically generating resumes for employees\\Automatic Bundesamt f{\"u}r Sicherheit in der Informatikstechnik (BSI) checking Project\\ Seal Kit Project\\ \texttt{Python}\slashsep\texttt{Splunk Phantom}\slashsep\texttt{Splunk}\slashsep\texttt{JSON}\slashsep\texttt{Linux}\slashsep\texttt{PostgreSQL}\slashsep\texttt{REST}\slashsep\texttt{Code Review}\slashsep\texttt{Automation}\slashsep\texttt{Confluence}\slashsep\texttt{JIRA}\slashsep\texttt{BitBucket}\slashsep\texttt{Agile}\slashsep\texttt{Tableau}}
+	\entry
+		{8/2018 -- 3/2020}
+		{All-round Python Developer}
+		{Gronau IT Cloud Computing GmbH}
+		{Taking care of employees' data\\ Maintaining Websites\\Automatically generating resumes for employees\\Automatic Bundesamt f{\"u}r Sicherheit in der Informatikstechnik (BSI) checking Project\\ Seal Kit Project\\ \texttt{Python}\slashsep\texttt{IT Security Check}\slashsep\texttt{XML}\slashsep\texttt{Linux}\slashsep\texttt{Automations}\slashsep\texttt{Latex}\slashsep\texttt{Django}\slashsep\texttt{Bash}\slashsep\texttt{JSON}\slashsep\texttt{markdown}}
+	\entry
+		{2/2017 -- 9/2017\\\footnotesize{Master thesis}}
+		{\href{http://dainamite.github.io/public/publication/yang_master_thesis.pdf}{Acoustic Self-localisation for Autonomous Soccer Robots}}
+		{DAI-Labor TU Berlin}
+		{\texttt{Python}\slashsep\texttt{C++}\slashsep\texttt{Audio Signal Processing}\slashsep\texttt{ALSA}\slashsep\texttt{Localisation}}
+	\entry
+		{4/2016 -- 10/2016\\\footnotesize{student job}}
+		{Full stack IoT developer}
+		{FluxPort}
+		{Providing possible IoT solutions\\Prototyping\\ \texttt{Python}\slashsep\texttt{Raspberry Pi}\slashsep\texttt{RabbitMQ}\slashsep\texttt{Web Technologies}\slashsep\texttt{Tornado}\slashsep\texttt{MongoDB}\slashsep\texttt{LoRa}}
+	\entry
+		{9/2014 -- 3/2015\\\footnotesize{student project}}
+		{Software Developer}
+		{Bosch in Berlin}
+		{\texttt{Python}\slashsep\texttt{REST-ful}\slashsep\texttt{Bugzilla}\slashsep\texttt{Ontology}\slashsep\texttt{Prot{\'e}g{\'e}}}
+	\entry
+		{4/2013 -- 4/2014\\\footnotesize{student project}}
+		{Web Developer}
+		{DesignBuild Knowledge Network}
+		{Project available at :: \href{https://www.dbxchange.eu/}{EU DesignBuild Knowledge Network} \\\texttt{PHP}\slashsep\texttt{Drupal7/8}\slashsep\texttt{Elastic Search}\slashsep\texttt{LAMP}\slashsep\texttt{Web Technologies}}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\cvsect{Education}
+
+\begin{entrylist}
+	\entry
+		{16/01/2019}
+		{ISTQB Certified Tester Foundation Level (CTFL)}
+		{}
+		{\href{https://www.youracclaim.com/badges/57851f58-8218-4f79-bac4-b2a6fb6a5d94}{Online badge for ISTQB Certified Tester Foundation Level (CTFL)}}
+	\entry
+		{12/2018}
+		{VMware VTSP Foundation and VMware VSP Foundation}
+		{VMware vSphere }
+		{}
+	\entry
+		{10/2018}
+		{Developing on AWS (3.x)}
+		{Fast Lane}
+		{}
+	\entry
+		{28/09/2018}
+		{Certified ScrumMaster}
+		{by Dr. Jeff Sutherland}
+		{\href{https://www.scrumalliance.org/community/profile/wyang35}{Certified ScrumMaster}}
+	\entry
+		{2012 -- 2017}
+		{Master's Degree}
+		{Technische Universit{\"a}t Berlin, Germany }
+		{Master of Computer Science}
+	\entry
+		{2011 -- 2012}
+		{Sprachkurs Deutsch}
+		{Hochschule Anhalt, Germany}
+		{DSH-3 Sprachzertifikat}
+	\entry
+		{2006 -- 2011}
+		{Bachelor's Degree}
+		{Peking City University, China}
+		{Bachelor of Science in Management of Information Systems }
+\end{entrylist}
+\clearpage
+\end{document}
